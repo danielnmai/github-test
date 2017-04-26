@@ -1,6 +1,9 @@
 require_relative "vehicle"
 
 class Car < Vehicle
+  def initialize 
+    super    
+  end
   def honk_horn
     puts "Beeeeeeep!"
   end
